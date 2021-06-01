@@ -1,0 +1,21 @@
+{
+  "name": "question",
+  "utterances": {
+    "en": [
+      "I have a question",
+      "question",
+      "Question",
+      "I have a Question",
+      "?",
+      "Question?",
+      "question?",
+      "what is?",
+      "who is?",
+      "where is?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "3ebaaf9125",
+      "name": "entry",
+      "onEnter": [],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "Q1"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "037742e0bf",
+      "name": "Q1",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Q2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-KxzyxF"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"Q1\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "bc0b562b61",
+      "name": "Q2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Q3"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-8mP0BT"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"Q2\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "84e23d7020",
+      "name": "Q3",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Q4"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-A7ccct"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"Q3\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "033a412de5",
+      "name": "Q4",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Q5"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-XqPQJK"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"Q4\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "9dd7b6486f",
+      "name": "Q5",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#End"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-CPc72D"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"Q5\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "yes",
+  "utterances": {
+    "en": [
+      "yes",
+      "Yes"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

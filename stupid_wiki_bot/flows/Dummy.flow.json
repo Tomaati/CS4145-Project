@@ -1,0 +1,26 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": []
+  },
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "922f0a5418",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-C1qdeO",
+        "builtin/resetContext {}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "Questions_No-Help.flow.json#entry"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}
