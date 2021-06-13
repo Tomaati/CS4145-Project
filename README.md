@@ -4,5 +4,5 @@ This git contains all Conversational Interfaces that were used during our experi
 ## Installation Guid
 * Download and Install the latest version of [Botpress](https://botpress.com/download).
 * From within Botpress press Create Bot -> Import Existing and select the bot you want to import.
-* Open the botpress editor and don't forget to Train the model (in the down right corner).
+* Open the botpress editor and don't forget to Train the model (Button can be found in the down right corner), *This step might not be neccessary since the files contain the models as well*.
 * For reproduction purposes you can find a deployment guide [here](https://botpress.com/docs/deploy/hosting).
